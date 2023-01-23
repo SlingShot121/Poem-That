@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PoemThat!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>PoemThat!</h1>
+    <form>
+      <label for="recipient">Who is the poem addressed to?</label>
+      <input type="text" id="recipient" name="recipient"><br>
+      <label for="occasion">What's the occasion?</label>
+      <input type="text" id="occasion" name="occasion"><br>
+      <label for="mood">What's the mood of the poem?</label>
+      <input type="text" id="mood" name="mood"><br>
+      <button type="submit" onclick="generatePoem()">Generate Poem</button>
+    </form>
+    <div id="poem"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
